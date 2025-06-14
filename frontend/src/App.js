@@ -54,7 +54,7 @@ function App() {
         <button onClick={() => handleOperation('power')}>Power</button>
         <button onClick={() => handleOperation('sqrt')}>Square_Root</button>
         <button onClick={() => handleOperation('absolute')}>Absolute</button>
-        <button onClick={() => handleOperation('factorial')}>Factorials</button>
+        <button onClick={() => handleOperation('factorial')}>Factorial</button>
         <button onClick={() => handleOperation('square')}>Square</button>
       </div>
       <h2>Result: {result !== null ? result : 'No result yet'}</h2>

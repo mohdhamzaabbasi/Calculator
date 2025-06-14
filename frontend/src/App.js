@@ -47,7 +47,7 @@ function App() {
         placeholder="Enter number B"
       />
       <div style={{ margin: '10px 0' }}>
-        <button onClick={() => handleOperation('subtract')}>Subtract</button>
+        <button onClick={() => handleOperation('subtract')}>Subtraction</button>
         <button onClick={() => handleOperation('multiply')}>Multiply</button>
         <button onClick={() => handleOperation('divide')}>Divide</button>
         <button onClick={() => handleOperation('mod')}>Modulo</button>

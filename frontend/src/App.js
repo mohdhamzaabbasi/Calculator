@@ -29,6 +29,7 @@ function App() {
       setResult('Error connecting to server');
     }
   };
+  
 
   return (
     <div className="App">

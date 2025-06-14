@@ -143,6 +143,7 @@ app.get(/^\/(?!api).*/, (req, res) => {
 });
 
 
+
 // Only start the server if not in test environment
 if (process.env.NODE_ENV !== 'test') {
     app.listen(port, () => {
